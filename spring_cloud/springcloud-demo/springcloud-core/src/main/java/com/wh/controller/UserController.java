@@ -3,6 +3,7 @@ package com.wh.controller;
 import com.wh.entity.User;
 import com.wh.feign.UserFeign;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,5 +18,10 @@ public class UserController {
     @RequestMapping(value = "/user",method = RequestMethod.GET)
     public List<User> getAllUser() {
         return userFeign.getAllUser();
+    }
+
+    @RequestMapping(value = "/user",method = RequestMethod.POST)
+    public int saveUser(@RequestBody User user) {
+        return userFeign.saveUser(user);
     }
 }
