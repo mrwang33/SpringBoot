@@ -19,5 +19,7 @@
     <modules>
         <module>springcloud-eureka</module>
         <module>springcloud-common</module>
+        <module>springcloud-dao</module>
+        <module>springcloud-core</module>
     </modules>
 </project>
