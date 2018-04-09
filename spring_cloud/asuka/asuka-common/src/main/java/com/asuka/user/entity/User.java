@@ -1,4 +1,4 @@
-package com.asuka.entity;
+package com.asuka.user.entity;
 
 import java.util.Date;
 
