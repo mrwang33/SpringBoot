@@ -1,14 +1,11 @@
 package com.asuka.user.controller;
 
-import com.asuka.user.common.RestCode;
-import com.asuka.user.common.RestResponse;
+import com.asuka.common.RestCode;
+import com.asuka.common.RestResponse;
 import com.asuka.user.entity.User;
 import com.asuka.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class UserController {
@@ -22,5 +19,11 @@ public class UserController {
             return RestResponse.error(RestCode.USER_NOT_FOUND);
         }
         return RestResponse.success(login);
+    }
+
+    @RequestMapping(value = "/user",method = RequestMethod.POST)
+    public RestResponse save(User user) {
+        int save = userService.save(user);
+        return save > 0 ? RestResponse.success() : RestResponse.error(RestCode.ILLEGAL_PARAMS);
     }
 }

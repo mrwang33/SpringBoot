@@ -1,3 +1,5 @@
+com\asuka\service\BaseService.class
+com\asuka\machine\entity\Machine.class
+com\asuka\user\entity\User.class
 com\asuka\common\RestCode.class
-com\asuka\entity\User.class
 com\asuka\common\RestResponse.class

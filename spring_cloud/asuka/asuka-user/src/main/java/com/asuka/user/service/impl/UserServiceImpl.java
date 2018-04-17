@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int save(User user) {
-        return 0;
+        return userMapper.insert(user);
     }
 
     @Override

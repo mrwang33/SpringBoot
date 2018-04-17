@@ -1,4 +1,4 @@
-package com.asuka.user.service;
+package com.asuka.service;
 
 import java.io.Serializable;
 import java.util.List;
