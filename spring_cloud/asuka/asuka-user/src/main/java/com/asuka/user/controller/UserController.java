@@ -22,7 +22,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.POST)
-    public RestResponse save(User user) {
+    public RestResponse save(@RequestBody User user) {
         int save = userService.save(user);
         return save > 0 ? RestResponse.success() : RestResponse.error(RestCode.ILLEGAL_PARAMS);
     }
