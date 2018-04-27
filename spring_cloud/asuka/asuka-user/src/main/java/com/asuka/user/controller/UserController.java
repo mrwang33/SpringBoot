@@ -12,16 +12,13 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
     public RestResponse<User> login(@RequestBody User user) {
         User login = userService.login(user);
-        if (login == null) {
-            return RestResponse.error(RestCode.USER_NOT_FOUND);
-        }
-        return RestResponse.success(login);
+        return login == null ? RestResponse.error(RestCode.USER_NOT_FOUND) : RestResponse.success(login);
     }
 
-    @RequestMapping(value = "/user",method = RequestMethod.POST)
+    @RequestMapping(value = "/user", method = RequestMethod.POST)
     public RestResponse save(@RequestBody User user) {
         int save = userService.save(user);
         return save > 0 ? RestResponse.success() : RestResponse.error(RestCode.ILLEGAL_PARAMS);
