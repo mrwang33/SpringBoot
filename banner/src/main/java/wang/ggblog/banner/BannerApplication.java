@@ -8,5 +8,6 @@ public class BannerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BannerApplication.class, args);
+
 	}
 }
