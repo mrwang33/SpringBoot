@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/asuka-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/asuka-machine/pom.xml" />
+        <option value="$PROJECT_DIR$/asuka-common/pom.xml" />
       </list>
     </option>
   </component>

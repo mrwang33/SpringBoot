@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-starter:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-2.0.0.BUILD-20180423.025437-2554.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-2.0.0.BUILD-20180521.235404-2777.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-2.0.0.BUILD-20180423.025437-2554-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-2.0.0.BUILD-20180521.235404-2777-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-2.0.0.BUILD-20180423.025437-2554-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-2.0.0.BUILD-20180521.235404-2777-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

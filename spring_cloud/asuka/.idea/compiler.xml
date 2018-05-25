@@ -15,7 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
-      <module name="asuka-common" target="1.8" />
+      <module name="asuka-common" target="1.5" />
       <module name="asuka-eureka" target="1.8" />
       <module name="asuka-machine" target="1.8" />
       <module name="asuka-user" target="1.8" />

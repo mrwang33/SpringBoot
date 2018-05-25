@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://E:\study\repo\SpringBoot\spring_cloud\asuka\api-gateway\api-gateway.iml" filepath="E:\study\repo\SpringBoot\spring_cloud\asuka\api-gateway\api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/asuka-common/asuka-common.iml" filepath="$PROJECT_DIR$/asuka-common/asuka-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/asuka-eureka/asuka-eureka.iml" filepath="$PROJECT_DIR$/asuka-eureka/asuka-eureka.iml" />
+      <module fileurl="file://E:\study\repo\SpringBoot\spring_cloud\asuka\asuka-eureka\asuka-eureka.iml" filepath="E:\study\repo\SpringBoot\spring_cloud\asuka\asuka-eureka\asuka-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/asuka-machine/asuka-machine.iml" filepath="$PROJECT_DIR$/asuka-machine/asuka-machine.iml" />
+      <module fileurl="file://E:\study\repo\SpringBoot\spring_cloud\asuka\asuka-machine\asuka-machine.iml" filepath="E:\study\repo\SpringBoot\spring_cloud\asuka\asuka-machine\asuka-machine.iml" />
       <module fileurl="file://$PROJECT_DIR$/asuka-user/asuka-user.iml" filepath="$PROJECT_DIR$/asuka-user/asuka-user.iml" />
+      <module fileurl="file://E:\study\repo\SpringBoot\spring_cloud\asuka\asuka-user\asuka-user.iml" filepath="E:\study\repo\SpringBoot\spring_cloud\asuka\asuka-user\asuka-user.iml" />
     </modules>
   </component>
 </project>
