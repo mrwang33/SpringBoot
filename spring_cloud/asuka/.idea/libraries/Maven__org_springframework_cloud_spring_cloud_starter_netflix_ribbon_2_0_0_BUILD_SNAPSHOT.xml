@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.0.BUILD-20180522.020500-2181.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.0.BUILD-20180615.020447-2390.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.0.BUILD-20180522.020500-2181-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.0.BUILD-20180615.020447-2390-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.0.BUILD-20180522.020500-2181-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../jar/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-netflix-ribbon-2.0.0.BUILD-20180615.020447-2390-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

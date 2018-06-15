@@ -20,4 +20,6 @@ public interface UserMapper {
     int updateByPrimaryKey(User record);
 
     List<User> getByUsernameAndPassword(User user);
+
+    List<User> getAll();
 }

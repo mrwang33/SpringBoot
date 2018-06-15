@@ -25,6 +25,11 @@
     from user
     where username = #{username} and password = #{password}
   </select>
+  <select id="getAll" resultType="com.asuka.user.entity.User">
+    select
+    <include refid="Base_Column_List" />
+    from user
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from user
     where user_id = #{userId,jdbcType=INTEGER}

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="asuaka-config" />
         <module name="asuka-common" />
         <module name="asuka-eureka" />
         <module name="asuka-machine" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
+      <module name="asuaka-config" target="1.8" />
       <module name="asuka-common" target="1.5" />
       <module name="asuka-eureka" target="1.8" />
       <module name="asuka-machine" target="1.8" />

@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableZuulProxy
 public class ApiGatewayApplication {
 
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(ApiGatewayApplication.class, args);
 	}
