@@ -2,16 +2,23 @@ package wang.ggblog.controller;
 
 import lombok.extern.log4j.Log4j2;
 import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authz.annotation.*;
+import org.apache.shiro.authz.annotation.RequiresAuthentication;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
-import wang.ggblog.bean.ResponseBean;
-import wang.ggblog.database.UserService;
-import wang.ggblog.database.UserBean;
-import wang.ggblog.exception.UnauthorizedException;
-import wang.ggblog.util.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+import wang.ggblog.bean.ResponseBean;
+import wang.ggblog.database.UserBean;
+import wang.ggblog.database.UserService;
+import wang.ggblog.exception.UnauthorizedException;
+import wang.ggblog.util.JWTUtil;
 
 @RestController
 @Log4j2
@@ -58,7 +65,7 @@ public class WebController {
   }
 
   @GetMapping("/require_permission")
-  @RequiresPermissions(logical = Logical.AND, value = {"view", "edit"})
+  @RequiresPermissions(value = {"view", "edit"})
   public ResponseBean requirePermission() {
     return new ResponseBean(200, "You are visiting permission require edit,view", null);
   }
