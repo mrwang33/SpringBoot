@@ -70,6 +70,18 @@ public class WebController {
     return new ResponseBean(200, "You are visiting permission require edit,view", null);
   }
 
+  @GetMapping("/user")
+  @RequiresPermissions({"view"})
+  public ResponseBean user() {
+    return new ResponseBean(200, "super user", null);
+  }
+
+  @PostMapping("/user")
+  @RequiresPermissions({"view", "addUser"})
+  public ResponseBean saveUser() {
+    return new ResponseBean(200, "OK!", null);
+  }
+
   @RequestMapping(path = "/401")
   @ResponseStatus(HttpStatus.UNAUTHORIZED)
   public ResponseBean unauthorized() {
