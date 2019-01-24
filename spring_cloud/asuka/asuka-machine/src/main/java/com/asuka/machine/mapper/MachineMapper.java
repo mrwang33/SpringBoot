@@ -7,19 +7,20 @@ import java.util.List;
 
 @Mapper
 public interface MachineMapper {
-    int deleteByPrimaryKey(Integer machineId);
 
-    int insert(Machine record);
+  int deleteByPrimaryKey(Integer machineId);
 
-    int insertSelective(Machine record);
+  int insert(Machine record);
 
-    Machine selectByPrimaryKey(Integer machineId);
+  int insertSelective(Machine record);
 
-    int updateByPrimaryKeySelective(Machine record);
+  Machine selectByPrimaryKey(Integer machineId);
 
-    int updateByPrimaryKey(Machine record);
+  int updateByPrimaryKeySelective(Machine record);
 
-    List<Machine> getMachinesByUserId(Integer userId);
+  int updateByPrimaryKey(Machine record);
 
-    List<Machine> getAllMachine();
+  List<Machine> getMachinesByUserId(Integer userId);
+
+  List<Machine> getAllMachine();
 }

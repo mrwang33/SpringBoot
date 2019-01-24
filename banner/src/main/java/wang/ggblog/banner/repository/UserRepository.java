@@ -5,5 +5,6 @@ import org.springframework.stereotype.Repository;
 import wang.ggblog.banner.entity.User;
 
 @Repository
-public interface UserRepository extends JpaRepository<User,Integer> {
+public interface UserRepository extends JpaRepository<User, Integer> {
+
 }

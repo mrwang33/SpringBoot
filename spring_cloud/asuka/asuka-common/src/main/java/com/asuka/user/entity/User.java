@@ -3,73 +3,74 @@ package com.asuka.user.entity;
 import java.util.Date;
 
 public class User {
-    private Integer userId;
 
-    private String username;
+  private Integer userId;
 
-    private String password;
+  private String username;
 
-    private String email;
+  private String password;
 
-    private Integer gender;
+  private String email;
 
-    private Date registerDate;
+  private Integer gender;
 
-    private String phone;
+  private Date registerDate;
 
-    public Integer getUserId() {
-        return userId;
-    }
+  private String phone;
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
+  public Integer getUserId() {
+    return userId;
+  }
 
-    public String getUsername() {
-        return username;
-    }
+  public void setUserId(Integer userId) {
+    this.userId = userId;
+  }
 
-    public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
-    }
+  public String getUsername() {
+    return username;
+  }
 
-    public String getPassword() {
-        return password;
-    }
+  public void setUsername(String username) {
+    this.username = username == null ? null : username.trim();
+  }
 
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
-    }
+  public String getPassword() {
+    return password;
+  }
 
-    public String getEmail() {
-        return email;
-    }
+  public void setPassword(String password) {
+    this.password = password == null ? null : password.trim();
+  }
 
-    public void setEmail(String email) {
-        this.email = email == null ? null : email.trim();
-    }
+  public String getEmail() {
+    return email;
+  }
 
-    public Integer getGender() {
-        return gender;
-    }
+  public void setEmail(String email) {
+    this.email = email == null ? null : email.trim();
+  }
 
-    public void setGender(Integer gender) {
-        this.gender = gender;
-    }
+  public Integer getGender() {
+    return gender;
+  }
 
-    public Date getRegisterDate() {
-        return registerDate;
-    }
+  public void setGender(Integer gender) {
+    this.gender = gender;
+  }
 
-    public void setRegisterDate(Date registerDate) {
-        this.registerDate = registerDate;
-    }
+  public Date getRegisterDate() {
+    return registerDate;
+  }
 
-    public String getPhone() {
-        return phone;
-    }
+  public void setRegisterDate(Date registerDate) {
+    this.registerDate = registerDate;
+  }
 
-    public void setPhone(String phone) {
-        this.phone = phone == null ? null : phone.trim();
-    }
+  public String getPhone() {
+    return phone;
+  }
+
+  public void setPhone(String phone) {
+    this.phone = phone == null ? null : phone.trim();
+  }
 }

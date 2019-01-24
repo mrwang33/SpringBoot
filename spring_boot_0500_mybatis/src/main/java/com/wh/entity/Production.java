@@ -4,33 +4,34 @@ package com.wh.entity;
  * @author wanghuan
  */
 public class Production {
-    private Integer productionId;
 
-    private String productionName;
+  private Integer productionId;
 
-    private User user;
+  private String productionName;
 
-    public Integer getProductionId() {
-        return productionId;
-    }
+  private User user;
 
-    public void setProductionId(Integer productionId) {
-        this.productionId = productionId;
-    }
+  public Integer getProductionId() {
+    return productionId;
+  }
 
-    public String getProductionName() {
-        return productionName;
-    }
+  public void setProductionId(Integer productionId) {
+    this.productionId = productionId;
+  }
 
-    public void setProductionName(String productionName) {
-        this.productionName = productionName;
-    }
+  public String getProductionName() {
+    return productionName;
+  }
 
-    public User getUser() {
-        return user;
-    }
+  public void setProductionName(String productionName) {
+    this.productionName = productionName;
+  }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+  public User getUser() {
+    return user;
+  }
+
+  public void setUser(User user) {
+    this.user = user;
+  }
 }

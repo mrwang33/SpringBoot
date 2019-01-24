@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient("asuka-user")
 public interface UserRemote {
 
-    @RequestMapping(value = "/user",method = RequestMethod.POST)
-    void save(@RequestBody User user);
+  @RequestMapping(value = "/user", method = RequestMethod.POST)
+  void save(@RequestBody User user);
 }

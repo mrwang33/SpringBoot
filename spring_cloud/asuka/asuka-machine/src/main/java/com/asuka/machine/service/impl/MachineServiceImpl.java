@@ -11,36 +11,37 @@ import java.util.List;
 
 @Service
 public class MachineServiceImpl implements MachineService {
-    @Autowired
-    private MachineMapper machineMapper;
 
-    @Override
-    public List<Machine> getMachineByUserId(Integer userId) {
-        return machineMapper.getMachinesByUserId(userId);
-    }
+  @Autowired
+  private MachineMapper machineMapper;
 
-    @Override
-    public List<Machine> getAll() {
-        return machineMapper.getAllMachine();
-    }
+  @Override
+  public List<Machine> getMachineByUserId(Integer userId) {
+    return machineMapper.getMachinesByUserId(userId);
+  }
 
-    @Override
-    public Machine getById(Serializable serializable) {
-        return null;
-    }
+  @Override
+  public List<Machine> getAll() {
+    return machineMapper.getAllMachine();
+  }
 
-    @Override
-    public int save(Machine machine) {
-        return 0;
-    }
+  @Override
+  public Machine getById(Serializable serializable) {
+    return null;
+  }
 
-    @Override
-    public int update(Machine machine) {
-        return 0;
-    }
+  @Override
+  public int save(Machine machine) {
+    return 0;
+  }
 
-    @Override
-    public int delete(Serializable serializable) {
-        return 0;
-    }
+  @Override
+  public int update(Machine machine) {
+    return 0;
+  }
+
+  @Override
+  public int delete(Serializable serializable) {
+    return 0;
+  }
 }

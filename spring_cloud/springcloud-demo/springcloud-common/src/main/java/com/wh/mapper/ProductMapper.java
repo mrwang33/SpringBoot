@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface ProductMapper {
 
-    List<Product> selectAll();
+  List<Product> selectAll();
 
 }

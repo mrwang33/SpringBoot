@@ -7,11 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @Autowired
-    private HelloService helloService;
 
-    @RequestMapping("/hello")
-    public String hello() {
-        return helloService.hello();
-    }
+  @Autowired
+  private HelloService helloService;
+
+  @RequestMapping("/hello")
+  public String hello() {
+    return helloService.hello();
+  }
 }

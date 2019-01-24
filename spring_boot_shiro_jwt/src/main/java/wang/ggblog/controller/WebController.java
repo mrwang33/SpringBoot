@@ -71,7 +71,6 @@ public class WebController {
   }
 
   @GetMapping("/user")
-  @RequiresPermissions({"view"})
   public ResponseBean user() {
     return new ResponseBean(200, "super user", null);
   }

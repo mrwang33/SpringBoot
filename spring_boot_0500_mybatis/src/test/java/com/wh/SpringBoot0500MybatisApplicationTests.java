@@ -13,14 +13,15 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringBoot0500MybatisApplicationTests {
-    @Autowired
-    private UserService userService;
+
+  @Autowired
+  private UserService userService;
 
 
-    @Test
-    public void contextLoads() {
-        List<User> allUsers = userService.getAllUsers();
-        System.out.println("---------------");
-    }
+  @Test
+  public void contextLoads() {
+    List<User> allUsers = userService.getAllUsers();
+    System.out.println("---------------");
+  }
 
 }

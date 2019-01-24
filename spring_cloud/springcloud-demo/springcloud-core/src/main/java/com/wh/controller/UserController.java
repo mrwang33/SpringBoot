@@ -12,16 +12,17 @@ import java.util.List;
 
 @RestController
 public class UserController {
-    @Autowired
-    private UserFeign userFeign;
 
-    @RequestMapping(value = "/user",method = RequestMethod.GET)
-    public List<User> getAllUser() {
-        return userFeign.getAllUser();
-    }
+  @Autowired
+  private UserFeign userFeign;
 
-    @RequestMapping(value = "/user",method = RequestMethod.POST)
-    public int saveUser(@RequestBody User user) {
-        return userFeign.saveUser(user);
-    }
+  @RequestMapping(value = "/user", method = RequestMethod.GET)
+  public List<User> getAllUser() {
+    return userFeign.getAllUser();
+  }
+
+  @RequestMapping(value = "/user", method = RequestMethod.POST)
+  public int saveUser(@RequestBody User user) {
+    return userFeign.saveUser(user);
+  }
 }

@@ -8,13 +8,14 @@ import wang.ggblog.banner.service.UserService;
 
 @Controller
 public class UserController {
-    @Autowired
-    private UserService userService;
+
+  @Autowired
+  private UserService userService;
 
 
-    @GetMapping("user")
-    public String getUsers(ModelMap modelMap) {
-        modelMap.addAttribute("users",userService.getUsers());
-        return "user";
-    }
+  @GetMapping("user")
+  public String getUsers(ModelMap modelMap) {
+    modelMap.addAttribute("users", userService.getUsers());
+    return "user";
+  }
 }

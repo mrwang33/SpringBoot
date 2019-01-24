@@ -7,19 +7,20 @@ import java.util.List;
 
 @Mapper
 public interface UserMapper {
-    int deleteByPrimaryKey(Integer userId);
 
-    int insert(User record);
+  int deleteByPrimaryKey(Integer userId);
 
-    int insertSelective(User record);
+  int insert(User record);
 
-    User selectByPrimaryKey(Integer userId);
+  int insertSelective(User record);
 
-    int updateByPrimaryKeySelective(User record);
+  User selectByPrimaryKey(Integer userId);
 
-    int updateByPrimaryKey(User record);
+  int updateByPrimaryKeySelective(User record);
 
-    List<User> getByUsernameAndPassword(User user);
+  int updateByPrimaryKey(User record);
 
-    List<User> getAll();
+  List<User> getByUsernameAndPassword(User user);
+
+  List<User> getAll();
 }

@@ -5,8 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class HelloFeignFallBack implements HelloFeign {
-    @Override
-    public String sayHi() {
-        return "oh no, server is down!";
-    }
+
+  @Override
+  public String sayHi() {
+    return "oh no, server is down!";
+  }
 }

@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-    @RequestMapping("/index")
-    public String index() {
-        return "hello spring cloud";
-    }
+  @RequestMapping("/index")
+  public String index() {
+    return "hello spring cloud";
+  }
 }

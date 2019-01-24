@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-    @RequestMapping("/index")
-    public Object 你好啊() {
-        return "hello world";
-    }
+  @RequestMapping("/index")
+  public Object 你好啊() {
+    return "hello world";
+  }
 }

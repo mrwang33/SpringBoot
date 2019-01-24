@@ -11,16 +11,17 @@ import java.util.List;
 
 @RestController
 public class UserController {
-    @Autowired
-    private UserService userService;
 
-    @RequestMapping("/index")
-    public List<User> getAll() {
-        return userService.getAll();
-    }
+  @Autowired
+  private UserService userService;
 
-    @RequestMapping("/save")
-    public int save(@RequestBody User user) {
-        return userService.saveUser(user);
-    }
+  @RequestMapping("/index")
+  public List<User> getAll() {
+    return userService.getAll();
+  }
+
+  @RequestMapping("/save")
+  public int save(@RequestBody User user) {
+    return userService.saveUser(user);
+  }
 }

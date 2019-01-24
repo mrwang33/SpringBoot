@@ -23,4 +23,13 @@ public class CommonUtil {
       throw new RuntimeException(e);
     }
   }
+
+  public static void main(String[] args) {
+    System.out.println(sha512("admin&123456:yzyx"));
+    long l = System.currentTimeMillis();
+    System.out.println("现在时间" + l);
+    System.out.println(sha512(
+        "5e3493044820cd6e284a7f0abacd78ab8eb8e83b26967f64e19671f1197b74540e5cc9bcf9370e154a2bea3d1fce99c211d58b67213088bf108fe25504e722e5"
+            + l));
+  }
 }

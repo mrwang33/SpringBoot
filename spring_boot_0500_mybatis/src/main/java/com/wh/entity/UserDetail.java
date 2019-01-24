@@ -6,40 +6,41 @@ import java.util.List;
  * @author wanghuan
  */
 public class UserDetail {
-    private Integer userDetailId;
-    private String detail;
-    private User user;
-    private List<Production> productions;
 
-    public List<Production> getProductions() {
-        return productions;
-    }
+  private Integer userDetailId;
+  private String detail;
+  private User user;
+  private List<Production> productions;
 
-    public void setProductions(List<Production> productions) {
-        this.productions = productions;
-    }
+  public List<Production> getProductions() {
+    return productions;
+  }
 
-    public Integer getUserDetailId() {
-        return userDetailId;
-    }
+  public void setProductions(List<Production> productions) {
+    this.productions = productions;
+  }
 
-    public void setUserDetailId(Integer userDetailId) {
-        this.userDetailId = userDetailId;
-    }
+  public Integer getUserDetailId() {
+    return userDetailId;
+  }
 
-    public String getDetail() {
-        return detail;
-    }
+  public void setUserDetailId(Integer userDetailId) {
+    this.userDetailId = userDetailId;
+  }
 
-    public void setDetail(String detail) {
-        this.detail = detail;
-    }
+  public String getDetail() {
+    return detail;
+  }
 
-    public User getUser() {
-        return user;
-    }
+  public void setDetail(String detail) {
+    this.detail = detail;
+  }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+  public User getUser() {
+    return user;
+  }
+
+  public void setUser(User user) {
+    this.user = user;
+  }
 }

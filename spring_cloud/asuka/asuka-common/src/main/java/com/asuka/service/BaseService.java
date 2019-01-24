@@ -5,14 +5,14 @@ import java.util.List;
 
 public interface BaseService<T> {
 
-    List<T> getAll();
+  List<T> getAll();
 
-    T getById(Serializable id);
+  T getById(Serializable id);
 
-    int save(T t);
+  int save(T t);
 
-    int update(T t);
+  int update(T t);
 
-    int delete(Serializable id);
+  int delete(Serializable id);
 
 }

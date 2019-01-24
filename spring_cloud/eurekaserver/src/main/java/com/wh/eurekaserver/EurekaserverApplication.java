@@ -15,9 +15,9 @@ import java.net.URL;
 @EnableEurekaServer
 public class EurekaserverApplication {
 
-	public static void main(String[] args) throws Exception {
-		SpringApplication.run(EurekaserverApplication.class, args);
+  public static void main(String[] args) throws Exception {
+    SpringApplication.run(EurekaserverApplication.class, args);
 
-	}
+  }
 
 }

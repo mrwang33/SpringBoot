@@ -13,17 +13,18 @@ import java.util.List;
 @SpringBootApplication
 @RestController
 public class SpringBoot0500MybatisApplication {
-    @Autowired
-    private UserService userService;
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBoot0500MybatisApplication.class, args);
-    }
+  @Autowired
+  private UserService userService;
 
-    @GetMapping("test")
-    public Object getAll() {
+  public static void main(String[] args) {
+    SpringApplication.run(SpringBoot0500MybatisApplication.class, args);
+  }
 
-        List<User> allUsers = userService.getAllUsers();
-        return allUsers;
-    }
+  @GetMapping("test")
+  public Object getAll() {
+
+    List<User> allUsers = userService.getAllUsers();
+    return allUsers;
+  }
 }

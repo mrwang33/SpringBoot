@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class FeignController {
-    @Autowired
-    private HelloFeign helloFeign;
 
-    @RequestMapping(value = "/sayHi",method = RequestMethod.GET)
-    public String sayHi() {
-        return helloFeign.sayHi();
-    }
+  @Autowired
+  private HelloFeign helloFeign;
+
+  @RequestMapping(value = "/sayHi", method = RequestMethod.GET)
+  public String sayHi() {
+    return helloFeign.sayHi();
+  }
 }

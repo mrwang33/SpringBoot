@@ -1,53 +1,54 @@
 package com.asuka.machine.entity;
 
 public class Machine {
-    private Integer machineId;
 
-    private Integer userId;
+  private Integer machineId;
 
-    private String machineName;
+  private Integer userId;
 
-    private String damage;
+  private String machineName;
 
-    private String color;
+  private String damage;
 
-    public Integer getMachineId() {
-        return machineId;
-    }
+  private String color;
 
-    public void setMachineId(Integer machineId) {
-        this.machineId = machineId;
-    }
+  public Integer getMachineId() {
+    return machineId;
+  }
 
-    public Integer getUserId() {
-        return userId;
-    }
+  public void setMachineId(Integer machineId) {
+    this.machineId = machineId;
+  }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
+  public Integer getUserId() {
+    return userId;
+  }
 
-    public String getMachineName() {
-        return machineName;
-    }
+  public void setUserId(Integer userId) {
+    this.userId = userId;
+  }
 
-    public void setMachineName(String machineName) {
-        this.machineName = machineName == null ? null : machineName.trim();
-    }
+  public String getMachineName() {
+    return machineName;
+  }
 
-    public String getDamage() {
-        return damage;
-    }
+  public void setMachineName(String machineName) {
+    this.machineName = machineName == null ? null : machineName.trim();
+  }
 
-    public void setDamage(String damage) {
-        this.damage = damage == null ? null : damage.trim();
-    }
+  public String getDamage() {
+    return damage;
+  }
 
-    public String getColor() {
-        return color;
-    }
+  public void setDamage(String damage) {
+    this.damage = damage == null ? null : damage.trim();
+  }
 
-    public void setColor(String color) {
-        this.color = color == null ? null : color.trim();
-    }
+  public String getColor() {
+    return color;
+  }
+
+  public void setColor(String color) {
+    this.color = color == null ? null : color.trim();
+  }
 }

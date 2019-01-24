@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class AsukaMachineApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AsukaMachineApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(AsukaMachineApplication.class, args);
+  }
 }

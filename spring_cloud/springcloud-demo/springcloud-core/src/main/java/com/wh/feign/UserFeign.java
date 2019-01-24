@@ -10,9 +10,9 @@ import java.util.List;
 @FeignClient(value = "springcloud-dao")
 public interface UserFeign {
 
-    @RequestMapping("/index")
-    List<User> getAllUser();
+  @RequestMapping("/index")
+  List<User> getAllUser();
 
-    @RequestMapping("/save")
-    int saveUser(@RequestBody User user);
+  @RequestMapping("/save")
+  int saveUser(@RequestBody User user);
 }
