@@ -2,217 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daaff5ab-e4d6-411f-b9e2-d054b62b8af3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/entity/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/BannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/BannerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/java/wang/ggblog/banner/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/main/resources/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banner/src/test/java/wang/ggblog/banner/BannerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banner/src/test/java/wang/ggblog/banner/BannerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0200/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0200/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0200/src/main/java/com/wh/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0200/src/main/java/com/wh/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0200/src/main/java/com/wh/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0200/src/main/java/com/wh/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/java/com/wh/SpringBootStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/java/com/wh/SpringBootStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/java/com/wh/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/java/com/wh/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/webapp/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/webapp/WEB-INF/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/webapp/jsp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/src/main/webapp/jsp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/target/classes/WEB-INF/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/target/classes/WEB-INF/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0300_web/target/classes/jsp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0300_web/target/classes/jsp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_boot_0400_jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_0400_jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/SpringBootStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/SpringBootStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wh/SpringBootStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wh/SpringBootStarter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wh/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wh/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wh/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wh/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/SpringBoot0500MybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/SpringBoot0500MybatisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/entity/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/entity/Production.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/entity/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/entity/UserDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/java/com/wh/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/test/java/com/wh/SpringBoot0500MybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/test/java/com/wh/SpringBoot0500MybatisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/test/java/com/wh/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_0500_mybatis/src/test/java/com/wh/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/database/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/database/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/database/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/database/UserBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/exception/UnauthorizedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/exception/UnauthorizedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/shiro/JWTFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/shiro/JWTFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/shiro/JWTToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/shiro/JWTToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/util/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/util/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/util/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_shiro_jwt/src/main/java/wang/ggblog/util/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/src/main/java/com/asuka/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/src/main/java/com/asuka/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/src/test/java/com/asuka/gateway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/api-gateway/src/test/java/com/asuka/gateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/common/RestCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/common/RestCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/common/RestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/common/RestResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/machine/entity/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/machine/entity/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/service/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-common/src/main/java/com/asuka/user/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/src/main/java/com/asuka/eureka/AsukaEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/src/main/java/com/asuka/eureka/AsukaEurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/src/test/java/com/asuka/eureka/AsukaEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-eureka/src/test/java/com/asuka/eureka/AsukaEurekaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/AsukaMachineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/AsukaMachineApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/controller/MachineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/controller/MachineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/mapper/MachineMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/mapper/MachineMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/remote/UserRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/remote/UserRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/service/MachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/service/MachineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/service/impl/MachineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/java/com/asuka/machine/service/impl/MachineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/com/asuka/machine/mapper/MachineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/com/asuka/machine/mapper/MachineMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/test/java/com/asuka/machine/AsukaMachineApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-machine/src/test/java/com/asuka/machine/AsukaMachineApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/AsukaUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/AsukaUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/java/com/asuka/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/resources/com/asuka/user/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/resources/com/asuka/user/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/test/java/com/asuka/user/AsukaUserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/asuka/asuka-user/src/test/java/com/asuka/user/AsukaUserApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/java/com/wh/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/java/com/wh/ConfigClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/java/com/wh/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/java/com/wh/controller/ConfigClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-client/src/test/java/com/wh/ConfigClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-client/src/test/java/com/wh/ConfigClientApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-server/src/main/java/com/wh/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-server/src/main/java/com/wh/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/config-server/src/test/java/com/wh/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/config-server/src/test/java/com/wh/ConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/eurekaserver/src/main/java/com/wh/eurekaserver/EurekaserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/eurekaserver/src/main/java/com/wh/eurekaserver/EurekaserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/eurekaserver/src/test/java/com/wh/eurekaserver/EurekaserverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/eurekaserver/src/test/java/com/wh/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/ServiceFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/ServiceFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/controller/FeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/fallback/HelloFeignFallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/fallback/HelloFeignFallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/service/HelloFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-feign/src/main/java/com/wh/service/HelloFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-feign/src/test/java/com/wh/ServiceFeignApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-feign/src/test/java/com/wh/ServiceFeignApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-hi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-hi/src/main/java/com/wh/ServiceHiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-hi/src/main/java/com/wh/ServiceHiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-hi/src/main/java/com/wh/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-hi/src/main/java/com/wh/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-hi/src/test/java/com/wh/ServiceHiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-hi/src/test/java/com/wh/ServiceHiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/ServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/ServiceRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/service/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/service/impl/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/main/java/com/wh/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/test/java/com/wh/ServiceRibbonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-ribbon/src/test/java/com/wh/ServiceRibbonApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-zuul/src/main/java/com/wh/ServiceZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-zuul/src/main/java/com/wh/ServiceZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/service-zuul/src/test/java/com/wh/ServiceZuulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/service-zuul/src/test/java/com/wh/ServiceZuulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/src/main/java/com/wh/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/src/main/java/com/wh/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/src/main/java/com/wh/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/src/main/java/com/wh/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/src/main/java/com/wh/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-common/src/main/java/com/wh/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/src/main/java/com/wh/SpringcloudCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/src/main/java/com/wh/SpringcloudCoreApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/src/main/java/com/wh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/src/main/java/com/wh/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/src/main/java/com/wh/feign/UserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-core/src/main/java/com/wh/feign/UserFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/SpringcloudDaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/SpringcloudDaoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/java/com/wh/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/resources/mybatis/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/resources/mybatis/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/test/java/com/wh/SpringcloudDaoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-dao/src/test/java/com/wh/SpringcloudDaoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-eureka/src/main/java/com/wh/SpringcloudEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-eureka/src/main/java/com/wh/SpringcloudEurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-eureka/src/test/java/com/wh/SpringcloudEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud/springcloud-demo/springcloud-eureka/src/test/java/com/wh/SpringcloudEurekaApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -233,8 +23,10 @@
     <session id="1781741236">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -288,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="308">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/entity/Brand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="374">
               <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -312,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/SpringBootStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="198">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -321,32 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../jar/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-664">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,7 +198,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -466,39 +236,13 @@
               <item name="spring_boot_0400_jpa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wh" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_0400_jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_boot_0400_jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wh" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_0400_jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_boot_0400_jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wh" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_boot_0400_jpa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_boot_0400_jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,7 +253,7 @@
     <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file:///home/wh/IdeaProjects/spring_boot_0400_jpa/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548318447790" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548318787173" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -647,8 +391,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringBootStarter" />
       <item itemvalue="Spring Boot.SpringBootStarter" />
+      <item itemvalue="Application.SpringBootStarter" />
     </list>
     <recent_temporary>
       <list>
@@ -666,18 +410,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498984803971</updated>
-      <workItem from="1548314688569" duration="3149000" />
+      <workItem from="1548314688569" duration="3478000" />
+      <workItem from="1548323785261" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3149000" />
+    <option name="totallyTimeSpent" value="4086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -685,24 +429,23 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3213898" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3213898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.267101" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="bottom" id="Statistic" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -712,6 +455,8 @@
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" side_tool="true" />
@@ -763,13 +508,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../jar/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/GeneratedValue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -798,23 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jar/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/SpringBootStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../jar/org/springframework/data/spring-data-commons/2.1.2.RELEASE/spring-data-commons-2.1.2.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -829,23 +550,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-13">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/entity/Brand.java">
+    <entry file="jar://$PROJECT_DIR$/../../../jar/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-664">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -856,20 +571,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="242">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/entity/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/SpringBootStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
