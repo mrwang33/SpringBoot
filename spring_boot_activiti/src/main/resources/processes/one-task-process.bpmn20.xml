@@ -3,6 +3,19 @@
         xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
         xmlns:activiti="http://activiti.org/bpmn"
         targetNamespace="Examples">
+    <BPMNDiagram xmlns="http://www.omg.org/spec/BPMN/20100524/DI">
+        <BPMNPlane>
+            <BPMNShape bpmnElement="theEnd">
+                <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" height="48.0" width="48.0" x="245.28571428571422" y="326.71428571428567"/>
+            </BPMNShape>
+            <BPMNShape bpmnElement="theStart">
+                <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" height="48.0" width="48.0" x="267.42857142857133" y="-15.42857142857143"/>
+            </BPMNShape>
+            <BPMNShape bpmnElement="theTask">
+                <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" height="48.0" width="120.0" x="211.42857142857133" y="127.42857142857139"/>
+            </BPMNShape>
+        </BPMNPlane>
+    </BPMNDiagram>
 
     <process id="oneTaskProcess" name="The One Task Process">
         <startEvent id="theStart"/>
