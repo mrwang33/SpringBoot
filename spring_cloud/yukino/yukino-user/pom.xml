@@ -10,28 +10,12 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.yukino</groupId>
-  <artifactId>yukino-eureka</artifactId>
+  <artifactId>yukino-user</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>yukino-eureka</name>
+  <name>yukino-user</name>
 
-  <properties>
-    <java.version>1.8</java.version>
-  </properties>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
-
-  </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
-
+  <modules>
+    <module>yukino-user-client</module>
+    <module>yukino-user-server</module>
+  </modules>
 </project>
