@@ -12,6 +12,28 @@
   <artifactId>yukino-common</artifactId>
   <properties>
     <java.version>1.8</java.version>
+    <codingapi.txlcn.version>5.0.2.RELEASE</codingapi.txlcn.version>
   </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>com.codingapi.txlcn</groupId>
+      <artifactId>txlcn-tc</artifactId>
+      <version>${codingapi.txlcn.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.codingapi.txlcn</groupId>
+      <artifactId>txlcn-tm</artifactId>
+      <version>${codingapi.txlcn.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.codingapi.txlcn</groupId>
+      <artifactId>txlcn-txmsg-netty</artifactId>
+      <version>${codingapi.txlcn.version}</version>
+    </dependency>
+  </dependencies>
 
 </project>

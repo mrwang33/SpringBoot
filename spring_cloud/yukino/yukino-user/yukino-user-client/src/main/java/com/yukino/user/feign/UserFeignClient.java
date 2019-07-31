@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(serviceId = "yukino-user-server", path = "user")
+@FeignClient(serviceId = "yukino-user-server", path = "user", fallback = com.yukino.user.feign.fallback.UserFeignFallback.class)
 public interface UserFeignClient {
 
   @GetMapping("list")
   ResponseEntity<List<UserDTO>> list();
 
-  @PostMapping
+  @PostMapping("/")
   ResponseEntity addUser(@RequestBody UserDTO userDTO);
 
 }
